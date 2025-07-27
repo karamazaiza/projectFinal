@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grades"
+    android:id="@+id/main"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#365989"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                android:layout_marginEnd="16dp"/>
+
+
+            <TextView
+                android:id="@+id/Grades"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Grades"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grade"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="Mathematics"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="90"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="Arabic"
+                android:inputType="text" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="87"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="English"
+                android:inputType="text" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="75"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="Technology"
+                android:inputType="text" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="85"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="Chemistry"
+                android:inputType="text" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="83"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:hint="Physics"
+                android:inputType="text" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:autofillHints="creditCardNumber"
+                android:hint="90"
+                android:inputType="number"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
