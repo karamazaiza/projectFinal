@@ -25,7 +25,7 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"/>
-    <!-- ✅ حقل إدخال الإيميل -->
+
     <EditText
         android:id="@+id/emailInput"
         android:layout_width="match_parent"
@@ -40,7 +40,6 @@
         android:layout_marginRight="20dp"
         />
 
-    <!-- ✅ حقل إدخال كلمة المرور -->
     <EditText
         android:id="@+id/passwordInput"
         android:layout_width="match_parent"
@@ -55,7 +54,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"/>
 
-    <!-- ✅ زر تسجيل الدخول -->
+
     <Button
         android:id="@+id/loginButton1"
         android:layout_width="match_parent"
